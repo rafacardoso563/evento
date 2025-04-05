@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Adiconar Evento</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<header>
+  <h1 id="event">Eventos</h1>
+</header>
+
+
+<body>
+  <h1 id="titulo">Cadastro de Eventos</h1>
+
+
+  <form id="eventoForm">
+
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+
+    <label for="dia">Data:</label>
+    <input type="text" id="dia" name="dia" required>
+
+    <label for="locall">Local:</label>
+    <input type="text" id="locall" name="locall" required>
+
+    <label for="descricao">Descrição:</label>
+    <input type="text" id="descricao" name="descricao" required>
+
+    <button onclick="cadastrar(event)">Adicionar evento</button>
+  </form>
+
+  <div>
+
+    <a href="index.html"><button class="botao_cadastro">Acompanhe seus eventos</button></a>
+   
+  </div>
+
+
+  </div>
+
+</body>
+
+
+
+<script src="cadastro.js"></script>
+
+</html>
